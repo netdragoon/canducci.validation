@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canducci.MVC.Validation", "Canducci.MVC.Validation\Canducci.MVC.Validation.csproj", "{3E08EE9A-08D1-41FF-8B02-C3A17A84890B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canducci.MVC.Validation4.5", "Canducci.MVC.Validation4.5\Canducci.MVC.Validation4.5.csproj", "{68557BD5-0928-4127-95E3-3832B65CC8B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canducci.MVC.Validation4.5.1", "Canducci.MVC.Validation4.5.1\Canducci.MVC.Validation4.5.1.csproj", "{DC5A5F1A-046F-4428-AA05-7A6D17FE7ABA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CB0B9F55-CE82-4D84-8B80-AB18C2752D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp451", "WebApp451\WebApp451.csproj", "{C8DF2CF8-1070-45CD-94E6-8FD56A1723B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +23,23 @@ Global
 		{3E08EE9A-08D1-41FF-8B02-C3A17A84890B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E08EE9A-08D1-41FF-8B02-C3A17A84890B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E08EE9A-08D1-41FF-8B02-C3A17A84890B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68557BD5-0928-4127-95E3-3832B65CC8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68557BD5-0928-4127-95E3-3832B65CC8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68557BD5-0928-4127-95E3-3832B65CC8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68557BD5-0928-4127-95E3-3832B65CC8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5A5F1A-046F-4428-AA05-7A6D17FE7ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5A5F1A-046F-4428-AA05-7A6D17FE7ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5A5F1A-046F-4428-AA05-7A6D17FE7ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5A5F1A-046F-4428-AA05-7A6D17FE7ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DF2CF8-1070-45CD-94E6-8FD56A1723B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DF2CF8-1070-45CD-94E6-8FD56A1723B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DF2CF8-1070-45CD-94E6-8FD56A1723B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DF2CF8-1070-45CD-94E6-8FD56A1723B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8DF2CF8-1070-45CD-94E6-8FD56A1723B0} = {CB0B9F55-CE82-4D84-8B80-AB18C2752D70}
 	EndGlobalSection
 EndGlobal
